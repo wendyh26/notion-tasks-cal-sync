@@ -5,6 +5,10 @@ from config import VERIFICATION_TOKEN
 
 app = Flask(__name__)
 
+@app.route("/")
+def hello():
+    return "✅ Flask is running!"
+
 @app.route("/notion-webhook", methods=["POST"])
 def webhook():
     # 安全验证
