@@ -1,0 +1,7 @@
+{
+  "requestContext": {
+    "http": { "method": "GET" }
+  },
+  "rawPath": "/",
+  "rawQueryString": ""
+}
