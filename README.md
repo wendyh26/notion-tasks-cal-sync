@@ -1,8 +1,8 @@
-# Notion Tasks Gcal/Reminder Sync
+# Notion Tasks GCal/Reminder Sync
 
-This repo teaches how to: 
+This repo tutorial teaches how to ✅: 
 
-1.  Syncs tasks from a Notion database to Google Calendar as all-day events, via a subscribable ICS feed hosted on AWS Lambda. 
+1.  Syncs tasks from a Notion database to Google Calendar as all-day events, via a subscribable ICS feed hosted on AWS Lambda 📅. 
 2. tbd
 
 ## What It Does
@@ -47,7 +47,7 @@ The database ID is the 32-character hex string before `?v=`. In this example: `8
 
 ## Step 3: Deploy the Code
 
-Copy the code from [`notion/tasks/gcal/sync/lambda_function.py`](notion/tasks/gcal/sync/lambda_function.py) and paste it into the Lambda inline code editor, then click **Deploy**.
+Copy the code from [`notion-tasks-gcal-sync/lambda_function.py`](notion-tasks-gcal-sync/lambda_function.py) and paste it into the Lambda inline code editor, then click **Deploy**.
 
 > **Important:** Check your Notion database column names and update `"Name"` and `"Due"` in the code to match exactly.
 
@@ -115,6 +115,10 @@ A new calendar called **Notion Tasks** will appear. Google Calendar polls the fe
 - If your Notion column names differ from `Name` and `Due`, update those strings in the Lambda code
 - AWS Lambda free tier covers 1M requests/month — this will never cost anything at this usage level
 
----
 
+## Acknowledgements
+ 
+**Author:** Wendy Huang  
+All rights reserved. Unauthorized copying, reproduction, or distribution of this project or any of its contents is strictly prohibited.
+ 
 *Built with assistance from [Claude](https://claude.ai) by Anthropic.*
