@@ -140,7 +140,7 @@ An iOS Shortcut calls your API Gateway endpoint, which triggers a Lambda functio
 - An iPhone with the **Shortcuts** app
 - A Reminders list on your iPhone named exactly **Notion** (create it manually in the Reminders app first)
 - Your Notion database must have a task title column (named `Task Name`) and a due date column (named `Due`)
-> If your column names differ, update `"Task Name"` and `"Due"` in the Lambda code to match.
+> If your column names differ, update `Task Name` and `Due` in the Lambda code to match.
 
 
 ## Step 1: Create the Lambda Function
