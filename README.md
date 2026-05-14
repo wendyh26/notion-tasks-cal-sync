@@ -2,8 +2,8 @@
 
 This repo tutorial teaches how to sync your Notion tasks to your calendars and reminders. Choose a guide: ✅ 
 
-- [Part 1: Sync Notion Tasks → Google Calendar 📅](#part-1-sync-notion-tasks--google-calendar)
-- [Part 2: Sync Notion Tasks → Apple Reminders 🍎](#part-2-sync-notion-tasks--apple-reminders)
+- [Part 1: Sync Notion Tasks → Google Calendar 📅](#part-1-sync-notion-tasks--google-calendar-)
+- [Part 2: Sync Notion Tasks → Apple Reminders 🍎](#part-2-sync-notion-tasks--apple-reminders-)
 
 ---
 
