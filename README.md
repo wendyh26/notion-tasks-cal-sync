@@ -1,9 +1,15 @@
 # Notion Tasks GCal/Reminder Sync
 
-This repo tutorial teaches how to ✅: 
+This repo tutorial teaches how to sync your Notion tasks to your calendars and reminders. Choose a guide: ✅ 
 
-1.  Syncs tasks from a Notion database to Google Calendar as all-day events, via a subscribable ICS feed hosted on AWS Lambda 📅. 
-2. tbd
+- [Part 1: Sync Notion Tasks → Google Calendar](#part-1-sync-notion-tasks--google-calendar)
+- [Part 2: Sync Notion Tasks → Apple Reminders](#part-2-sync-notion-tasks--apple-reminders)
+
+---
+
+## Part 1: Sync Notion Tasks → Google Calendar
+ 
+Syncs tasks from a Notion database to Google Calendar as all-day events, via a subscribable ICS feed hosted on AWS Lambda.
 
 ## What It Does
 
@@ -115,6 +121,13 @@ A new calendar called **Notion Tasks** will appear. Google Calendar polls the fe
 - If your Notion column names differ from `Name` and `Due`, update those strings in the Lambda code
 - AWS Lambda free tier covers 1M requests/month — this will never cost anything at this usage level
 
+---
+
+## Part 2: Sync Notion Tasks → Apple Reminders
+ 
+*Coming soon.*
+ 
+---
 
 ## Acknowledgements
  
