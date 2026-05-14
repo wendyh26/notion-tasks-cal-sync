@@ -55,7 +55,7 @@ The database ID is the 32-character hex string before `?v=`. In this example: `8
 
 Copy the code from [`notion-tasks-gcal-sync/lambda_function.py`](notion-tasks-gcal-sync/lambda_function.py) and paste it into the Lambda inline code editor, then click **Deploy**.
 
-> **Important:** Check your Notion database column names and update `"Task Name"` and `"Due"` in the code to match exactly. Make sure each task name and due date is not empty.
+> **Important:** Check your Notion database column names and update `Task Name` and `Due` in the code to match exactly. Make sure each task name and due date is not empty.
 
 
 ## Step 4: Set Environment Variables
@@ -171,13 +171,14 @@ Alternatively, add a Lambda Layer for `requests` — search for a public `reques
  
 The code is in [`notion-tasks-reminders-sync/lambda_function.py`](notion-tasks-reminders-sync/lambda_function.py).
  
-> **Important:** Update `"Task Name"` and `"Due"` in the code if your Notion column names differ.
+> **Important:** Update `Task Name` and `Due` in the code if your Notion column names differ.
  
  
 ## Step 4: Set Environment Variables
  
 1. Go to **Configuration → Environment variables → Edit**
 2. Add:
+
 | Key | Value |
 |---|---|
 | `NOTION_TOKEN` | Your integration secret (`ntn_...`) |
@@ -227,7 +228,7 @@ The Shortcut does the following:
 - Shows a **"Notion Tasks Synced Successfully ✅"** notification on completion, or an error notification if something went wrong
 
 
-### Step 8: Test the Shortcut
+## Step 8: Test the Shortcut
  
 1. Open the Shortcuts app and run **Notion Sync** (or whatever you renamed it)
 2. If successful, you'll see a notification: **Notion Tasks Synced Successfully ✅**
